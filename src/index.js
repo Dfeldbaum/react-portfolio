@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
+//importing to be used for react router 4
 import App from './components/App';
 import Contact from './components/Contact';
 import About from './components/About';
-
-import './index.css';
-
 
 ReactDOM.render(
   <Router>
