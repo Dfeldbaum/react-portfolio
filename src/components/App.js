@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Link, Router } from 'react-router-dom';
 import '../styles/App.css';
+import Header from './Header/Header'
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
-      <div className="App">
-          <h1 className="App-title">David's React App</h1>
-          <Link to="/contact"><button>Contact Yo</button></Link>
-          <Link to="/about"><button>About Yo</button></Link>
+      <div className="wrapper">
+        <Header/>
+
+
+
+
       </div>
     );
   }
