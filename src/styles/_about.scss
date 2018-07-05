@@ -1,4 +1,4 @@
-.project-detail-section {
+.about-section {
   display: flex;
   flex-direction: column;
   margin: 108px auto 0;
@@ -14,7 +14,7 @@
     margin-bottom: 25px;
 
     @media screen and (min-width: $screen-sm) {
-      width: 35%;
+      width: 65%;
       margin-bottom: 0;
     }
 
@@ -52,7 +52,7 @@
   .img-container {
     width: 100%;
     @media screen and (min-width: $screen-sm) {
-      width: 65%;
+      width: 35%;
     }
 
     img {

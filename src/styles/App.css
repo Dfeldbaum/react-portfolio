@@ -150,23 +150,20 @@ body, html {
         margin-bottom: 0; } }
     .project-detail-section .text-container__title, .project-detail-section .text-container__subtitle {
       padding-bottom: 10px; }
+    .project-detail-section .text-container__title, .project-detail-section .text-container__subtitle, .project-detail-section .text-container__copy {
+      font-family: "proxima-nova",sans-serif;
+      text-align: left; }
     .project-detail-section .text-container__title {
       font-size: 28px;
-      font-family: "proxima-nova",sans-serif;
-      font-weight: 100;
-      text-align: left; }
+      font-weight: 100; }
     .project-detail-section .text-container__subtitle {
       font-size: 16px;
-      font-family: "proxima-nova",sans-serif;
-      font-weight: 100;
-      text-align: left; }
+      font-weight: 100; }
       .project-detail-section .text-container__subtitle span {
         font-weight: 100; }
     .project-detail-section .text-container__copy {
       font-size: 14px;
-      font-family: "proxima-nova",sans-serif;
       font-weight: 400;
-      text-align: left;
       padding-right: 50px; }
   .project-detail-section .img-container {
     width: 100%; }
@@ -174,5 +171,46 @@ body, html {
       .project-detail-section .img-container {
         width: 65%; } }
     .project-detail-section .img-container img {
+      max-width: 100%;
+      height: auto; }
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  margin: 108px auto 0;
+  padding: 45px; }
+  @media screen and (min-width: 767px) {
+    .about-section {
+      flex-direction: row; } }
+  .about-section .text-container {
+    width: 100%;
+    margin-bottom: 25px; }
+    @media screen and (min-width: 767px) {
+      .about-section .text-container {
+        width: 65%;
+        margin-bottom: 0; } }
+    .about-section .text-container__title, .about-section .text-container__subtitle {
+      padding-bottom: 10px; }
+    .about-section .text-container__title, .about-section .text-container__subtitle, .about-section .text-container__copy {
+      font-family: "proxima-nova",sans-serif;
+      text-align: left; }
+    .about-section .text-container__title {
+      font-size: 28px;
+      font-weight: 100; }
+    .about-section .text-container__subtitle {
+      font-size: 16px;
+      font-weight: 100; }
+      .about-section .text-container__subtitle span {
+        font-weight: 100; }
+    .about-section .text-container__copy {
+      font-size: 14px;
+      font-weight: 400;
+      padding-right: 50px; }
+  .about-section .img-container {
+    width: 100%; }
+    @media screen and (min-width: 767px) {
+      .about-section .img-container {
+        width: 35%; } }
+    .about-section .img-container img {
       max-width: 100%;
       height: auto; }

@@ -7,7 +7,7 @@ class Header extends Component {
         <div className="nav-wrapper">
           <ul className="nav-wrapper__list">
             <li onClick={this.props.showProjects}>Work</li>
-            <li onClick="">About</li>
+            <li onClick={this.props.showAbout}>About</li>
             <li onClick={this.props.showContactUs}>Contact</li>
           </ul>
 

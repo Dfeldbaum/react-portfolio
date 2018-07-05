@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 //importing to be used for react router 4
 import App from './components/App';
 import Contact from './components/Contact';
-import About from './components/About';
+import About from './components/About/About';
 
 ReactDOM.render(
   <Router>

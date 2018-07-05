@@ -12,6 +12,7 @@ import Chamberlain from './DetailPages/Chamberlain'
 import LiftmasterEmail from './DetailPages/LiftmasterEmail'
 import Google from './DetailPages/Google'
 import Lyrical from './DetailPages/Lyrical'
+import About from './About/About'
 
 
 class App extends Component {
@@ -26,6 +27,10 @@ class App extends Component {
 
   showProjects(){
     this.setState({progress:"projects"})
+  }
+
+  showAbout(){
+    this.setState({progress:"about"})
   }
 
   showContactUs(){
@@ -73,6 +78,9 @@ class App extends Component {
     if (progress == 'contact-us'){
       return <Contact/>
     }
+    if (progress == 'about'){
+      return <About/>
+    }
     if (progress == 'corona-summer'){
       return <CoronaSummer/>
     }
@@ -102,7 +110,7 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-          <Header showProjects={this.showProjects.bind(this)} showContactUs={this.showContactUs.bind(this)}/>
+          <Header showProjects={this.showProjects.bind(this)} showAbout={this.showAbout.bind(this)} showContactUs={this.showContactUs.bind(this)}/>
 
           {this.PickView()}
 
