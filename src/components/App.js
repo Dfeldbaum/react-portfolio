@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter, Link, Router } from 'react-router-dom';
 import '../styles/App.css';
 import Header from './Header/Header'
+import About from './About/About'
+import Contact from './Contact/Contact'
 import Projects from './Projects/Projects'
-import Contact from './Contact'
 import CoronaSummer from './DetailPages/CoronaSummer'
 import Pataks from './DetailPages/Pataks'
 import Liftmaster from './DetailPages/Liftmaster'
@@ -12,7 +13,8 @@ import Chamberlain from './DetailPages/Chamberlain'
 import LiftmasterEmail from './DetailPages/LiftmasterEmail'
 import Google from './DetailPages/Google'
 import Lyrical from './DetailPages/Lyrical'
-import About from './About/About'
+
+
 
 
 class App extends Component {
@@ -33,8 +35,8 @@ class App extends Component {
     this.setState({progress:"about"})
   }
 
-  showContactUs(){
-    this.setState({progress:"contact-us"})
+  showContact(){
+    this.setState({progress:"contact"})
   }
 
   showCoronaSummer(){
@@ -75,7 +77,7 @@ class App extends Component {
     if (progress == 'projects'){
       return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)}/>
     }
-    if (progress == 'contact-us'){
+    if (progress == 'contact'){
       return <Contact/>
     }
     if (progress == 'about'){
@@ -110,7 +112,7 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-          <Header showProjects={this.showProjects.bind(this)} showAbout={this.showAbout.bind(this)} showContactUs={this.showContactUs.bind(this)}/>
+          <Header showProjects={this.showProjects.bind(this)} showAbout={this.showAbout.bind(this)} showContact={this.showContact.bind(this)}/>
 
           {this.PickView()}
 

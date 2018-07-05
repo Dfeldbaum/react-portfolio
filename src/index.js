@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 //importing to be used for react router 4
 import App from './components/App';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 
 ReactDOM.render(
