@@ -26,12 +26,12 @@
         a {
           text-decoration: none;
           color: $gray;
-          letter-spacing: 1px;
+          letter-spacing: 2px;
 
           &:hover {
             color: $black;
             text-decoration: underline;
-            text-underline-position: under;
+            // text-underline-position: under;
           }
           &:active {
             color: $gray;

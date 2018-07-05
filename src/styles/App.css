@@ -45,11 +45,10 @@ body, html {
         .header .nav-wrapper__list li a {
           text-decoration: none;
           color: #8a8a8a;
-          letter-spacing: 1px; }
+          letter-spacing: 2px; }
           .header .nav-wrapper__list li a:hover {
             color: #000000;
-            text-decoration: underline;
-            text-underline-position: under; }
+            text-decoration: underline; }
           .header .nav-wrapper__list li a:active {
             color: #8a8a8a; }
     .header .nav-wrapper__name {
@@ -133,3 +132,47 @@ body, html {
     background-size: cover; }
     .projects-section .item8 img {
       visibility: hidden; }
+
+.project-detail-section {
+  display: flex;
+  flex-direction: column;
+  margin: 108px auto 0;
+  padding: 50px; }
+  @media screen and (min-width: 767px) {
+    .project-detail-section {
+      flex-direction: row; } }
+  .project-detail-section .text-container {
+    width: 100%;
+    margin-bottom: 25px; }
+    @media screen and (min-width: 767px) {
+      .project-detail-section .text-container {
+        width: 35%;
+        margin-bottom: 0; } }
+    .project-detail-section .text-container__title, .project-detail-section .text-container__subtitle {
+      padding-bottom: 10px; }
+    .project-detail-section .text-container__title {
+      font-size: 28px;
+      font-family: "proxima-nova",sans-serif;
+      font-weight: 100;
+      text-align: left; }
+    .project-detail-section .text-container__subtitle {
+      font-size: 16px;
+      font-family: "proxima-nova",sans-serif;
+      font-weight: 400;
+      text-align: left; }
+      .project-detail-section .text-container__subtitle span {
+        font-weight: 400; }
+    .project-detail-section .text-container__copy {
+      font-size: 14px;
+      font-family: "proxima-nova",sans-serif;
+      font-weight: 400;
+      text-align: left;
+      padding-right: 50px; }
+  .project-detail-section .img-container {
+    width: 100%; }
+    @media screen and (min-width: 767px) {
+      .project-detail-section .img-container {
+        width: 65%; } }
+    .project-detail-section .img-container img {
+      max-width: 100%;
+      height: auto; }
