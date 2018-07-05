@@ -12,12 +12,15 @@ body {
 body, html {
   height: 100%; }
 
+.wrapper {
+  width: 100%; }
+
 .header {
   width: 100%;
   position: fixed;
   top: 0;
   padding: 45px;
-  background-color: #ADD8E6; }
+  background-color: white; }
   .header .nav-wrapper {
     display: flex;
     flex-direction: row;
@@ -49,3 +52,31 @@ body, html {
         font-weight: 800;
         font-size: 28px;
         letter-spacing: 2px; }
+
+.projects-section {
+  margin: 108px auto 0;
+  padding: 0 1rem; }
+  .projects-section .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    @media screen and (min-width: 600px) {
+      .projects-section .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; } }
+  .projects-section .cell {
+    width: 100%; }
+    @media screen and (min-width: 450px) {
+      .projects-section .cell {
+        width: 50%; } }
+    @media screen and (min-width: 992px) {
+      .projects-section .cell {
+        width: calc(100% / 4); } }
+    @media screen and (min-width: 1200px) {
+      .projects-section .cell {
+        width: calc(100% / 5); } }
+  .projects-section .responsive-image {
+    max-width: 100%; }
+  .projects-section .cell img {
+    display: block; }

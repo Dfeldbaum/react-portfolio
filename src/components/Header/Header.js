@@ -4,10 +4,6 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-
-
-
-
         <div className="nav-wrapper">
           <ul className="nav-wrapper__list">
             <li><a href="/contact">WORK</a></li>
@@ -18,30 +14,7 @@ class Header extends Component {
           <div className="nav-wrapper__name">
             <h1>DAVID FELDBAUM</h1>
           </div>
-
-
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
     );
   }

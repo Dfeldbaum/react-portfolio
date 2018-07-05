@@ -1,0 +1,52 @@
+.projects-section {
+  margin: 108px auto 0;
+  padding: 0 1rem;
+  // max-width: 1200px;
+
+
+  .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 600px) {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+
+  .cell {
+    width: 100%;
+
+    @media screen and (min-width: 450px) {
+      width: 50%;
+    }
+
+    @media screen and (min-width: 992px) {
+      width: calc(100% / 4);
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: calc(100% / 5);
+    }
+
+  }
+
+  .responsive-image {
+    max-width: 100%;
+  }
+
+  .cell img {
+    display: block;
+  }
+
+  .cell1 {
+    
+  }
+
+
+
+
+
+ }
