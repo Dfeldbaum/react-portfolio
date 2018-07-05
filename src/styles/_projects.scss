@@ -1,6 +1,6 @@
 .projects-section {
   margin: 108px auto 0;
-  padding: 0 1rem;
+  padding: 0 0;
   // max-width: 1200px;
 
 
@@ -16,7 +16,7 @@
     }
   }
 
-  .cell {
+  .item {
     width: 100%;
 
     @media screen and (min-width: 450px) {
@@ -24,26 +24,93 @@
     }
 
     @media screen and (min-width: 992px) {
-      width: calc(100% / 4);
+      width: calc(100% / 3);
     }
 
     @media screen and (min-width: 1200px) {
+      width: calc(100% / 4);
+    }
+
+    @media screen and (min-width: 1500px) {
       width: calc(100% / 5);
     }
 
   }
+  //
+  // .responsive-image {
+  //   max-width: 100%;
+  // }
 
-  .responsive-image {
+  .item img {
+    display: block;
     max-width: 100%;
   }
 
-  .cell img {
-    display: block;
+  .item1 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-corona-summer.jpg') no-repeat center center;
+    background-size: cover;
   }
 
-  .cell1 {
-    
+  .item2 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-pataks.jpg') no-repeat center center;
+    background-size: cover;
   }
+
+  .item3 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-liftmaster2.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .item4 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-modelo.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .item5 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-chamberlain.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .item6 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-liftmaster.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .item7 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-google-cloud.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .item8 {
+    img {
+      visibility: hidden;
+    }
+    background: url('/../img/project-grid-lyrical.png') no-repeat center left;
+    background-size: cover;
+  }
+
+
 
 
 

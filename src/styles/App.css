@@ -55,7 +55,7 @@ body, html {
 
 .projects-section {
   margin: 108px auto 0;
-  padding: 0 1rem; }
+  padding: 0 0; }
   .projects-section .grid {
     display: flex;
     flex-direction: row;
@@ -65,18 +65,60 @@ body, html {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row; } }
-  .projects-section .cell {
+  .projects-section .item {
     width: 100%; }
     @media screen and (min-width: 450px) {
-      .projects-section .cell {
+      .projects-section .item {
         width: 50%; } }
     @media screen and (min-width: 992px) {
-      .projects-section .cell {
-        width: calc(100% / 4); } }
+      .projects-section .item {
+        width: calc(100% / 3); } }
     @media screen and (min-width: 1200px) {
-      .projects-section .cell {
+      .projects-section .item {
+        width: calc(100% / 4); } }
+    @media screen and (min-width: 1500px) {
+      .projects-section .item {
         width: calc(100% / 5); } }
-  .projects-section .responsive-image {
+  .projects-section .item img {
+    display: block;
     max-width: 100%; }
-  .projects-section .cell img {
-    display: block; }
+  .projects-section .item1 {
+    background: url("/../img/project-grid-corona-summer.jpg") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item1 img {
+      visibility: hidden; }
+  .projects-section .item2 {
+    background: url("/../img/project-grid-pataks.jpg") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item2 img {
+      visibility: hidden; }
+  .projects-section .item3 {
+    background: url("/../img/project-grid-liftmaster2.jpg") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item3 img {
+      visibility: hidden; }
+  .projects-section .item4 {
+    background: url("/../img/project-grid-modelo.png") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item4 img {
+      visibility: hidden; }
+  .projects-section .item5 {
+    background: url("/../img/project-grid-chamberlain.jpg") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item5 img {
+      visibility: hidden; }
+  .projects-section .item6 {
+    background: url("/../img/project-grid-liftmaster.jpg") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item6 img {
+      visibility: hidden; }
+  .projects-section .item7 {
+    background: url("/../img/project-grid-google-cloud.png") no-repeat center center;
+    background-size: cover; }
+    .projects-section .item7 img {
+      visibility: hidden; }
+  .projects-section .item8 {
+    background: url("/../img/project-grid-lyrical.png") no-repeat center left;
+    background-size: cover; }
+    .projects-section .item8 img {
+      visibility: hidden; }
