@@ -137,7 +137,7 @@ body, html {
   display: flex;
   flex-direction: column;
   margin: 108px auto 0;
-  padding: 50px; }
+  padding: 45px; }
   @media screen and (min-width: 767px) {
     .project-detail-section {
       flex-direction: row; } }
@@ -158,10 +158,10 @@ body, html {
     .project-detail-section .text-container__subtitle {
       font-size: 16px;
       font-family: "proxima-nova",sans-serif;
-      font-weight: 400;
+      font-weight: 100;
       text-align: left; }
       .project-detail-section .text-container__subtitle span {
-        font-weight: 400; }
+        font-weight: 100; }
     .project-detail-section .text-container__copy {
       font-size: 14px;
       font-family: "proxima-nova",sans-serif;

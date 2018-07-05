@@ -5,6 +5,14 @@ import Header from './Header/Header'
 import Projects from './Projects/Projects'
 import Contact from './Contact'
 import CoronaSummer from './DetailPages/CoronaSummer'
+import Pataks from './DetailPages/Pataks'
+import Liftmaster from './DetailPages/Liftmaster'
+import Modelo from './DetailPages/Modelo'
+import Chamberlain from './DetailPages/Chamberlain'
+import LiftmasterEmail from './DetailPages/LiftmasterEmail'
+import Google from './DetailPages/Google'
+import Lyrical from './DetailPages/Lyrical'
+
 
 class App extends Component {
 
@@ -28,11 +36,39 @@ class App extends Component {
     this.setState({progress:"corona-summer"})
   }
 
+  showPataks(){
+    this.setState({progress:"pataks"})
+  }
+
+  showLiftmaster(){
+    this.setState({progress:"liftmaster"})
+  }
+
+  showModelo(){
+    this.setState({progress:"modelo"})
+  }
+
+  showChamberlain(){
+    this.setState({progress:"chamberlain"})
+  }
+
+  showLiftmasterEmail(){
+    this.setState({progress:"liftmaster-email"})
+  }
+
+  showGoogle(){
+    this.setState({progress:"google"})
+  }
+
+  showLyrical(){
+    this.setState({progress:"lyrical"})
+  }
+
   PickView(props){
     let progress = this.state.progress;
 
     if (progress == 'projects'){
-      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)}/>
+      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)}/>
     }
     if (progress == 'contact-us'){
       return <Contact/>
@@ -40,26 +76,26 @@ class App extends Component {
     if (progress == 'corona-summer'){
       return <CoronaSummer/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'pataks'){
+      return <Pataks/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'liftmaster'){
+      return <Liftmaster/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'modelo'){
+      return <Modelo/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'chamberlain'){
+      return <Chamberlain/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'liftmaster-email'){
+      return <LiftmasterEmail/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'google'){
+      return <Google/>
     }
-    if (progress == 'corona-summer'){
-      return <Contact/>
+    if (progress == 'lyrical'){
+      return <Lyrical/>
     }
   }
 

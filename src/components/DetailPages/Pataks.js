@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class CoronaSummer extends Component {
+class Pataks extends Component {
 
   constructor(props) {
     super(props);
@@ -14,7 +14,7 @@ class CoronaSummer extends Component {
 
       <div className="project-detail-section">
         <div className="item text-container">
-          <h1 className="text-container__title">Corona Summer</h1>
+          <h1 className="text-container__title">Pataks</h1>
           <h1 className="text-container__subtitle"><span>Built With: </span>HTML5, CSS3, ReactJS</h1>
           <p className="text-container__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null</p>
         </div>
@@ -27,4 +27,4 @@ class CoronaSummer extends Component {
   }
 }
 
-export default CoronaSummer;
+export default Pataks;
