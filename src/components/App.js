@@ -4,6 +4,7 @@ import '../styles/App.css';
 import Header from './Header/Header'
 import Projects from './Projects/Projects'
 import Contact from './Contact'
+import DetailPages from './DetailPages/DetailPages'
 
 class App extends Component {
 
@@ -37,7 +38,7 @@ class App extends Component {
       return <Contact/>
     }
     if (progress == 'corona-summer'){
-      return <Contact/>
+      return <CoronaSummer/>
     }
     if (progress == 'corona-summer'){
       return <Contact/>
