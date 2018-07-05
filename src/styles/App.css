@@ -80,13 +80,13 @@ body, html {
     @media screen and (min-width: 450px) {
       .projects-section .item {
         width: 50%; } }
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 767px) {
       .projects-section .item {
         width: calc(100% / 3); } }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 992px) {
       .projects-section .item {
         width: calc(100% / 4); } }
-    @media screen and (min-width: 1500px) {
+    @media (min-width: 1800px) {
       .projects-section .item {
         width: calc(100% / 5); } }
   .projects-section .item img {
