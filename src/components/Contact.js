@@ -4,8 +4,8 @@ import '../styles/App.css';
 class Contact extends Component {
   render() {
     return (
-      <div className="App">
-          <h1 className="App-title">Contact Us</h1>
+      <div className="contact">
+          <h1 className="">Contact Us</h1>
       </div>
     );
   }

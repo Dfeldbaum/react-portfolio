@@ -1,0 +1,193 @@
+// This file should be imported into each banners banner.scss file
+
+@import './node_modules/normalize.css/normalize';
+@import './variables';
+
+/* User Styles
+   ==========================================================================
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $gray-darker;
+  background-color: $white;
+  font-family: $google-sans;
+  font-weight: $bold;
+  font-size: 24px;
+  line-height: 1.5px;
+}
+
+strong {
+  font-weight: $medium;
+}
+
+.title {
+  color: $blue;
+  font-family: $open-sans;
+  font-weight: $bold;
+  line-height: 1.1px;
+}
+
+
+#banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+  //padding: 20px 20px 50px;
+}
+
+// backgroundExit container
+#exit {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+:focus {
+  outline:none;
+}
+::-moz-focus-inner {
+  border:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-google-cloud-color--icon, .logo-google-cloud-color--copy {
+  visibility: hidden;
+  opacity: 0;
+}
+
+// .logo-google-cloud-color {
+//   position: absolute;
+//   top: 14px;
+//   left: 104px;
+//   z-index: 5;
+//   visibility: hidden;
+//   opacity: 0;
+//   width: 125px;
+// }
+
+.logo-google-cloud-color--copy {
+  position: absolute;
+  top: 25px;
+  left: 71px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  width: 124px;
+}
+.logo-google-cloud-color--icon {
+  position: absolute;
+  top: 24px;
+  left: 31px;
+  z-index: 25;
+  background-color: white; 
+  width: 37px;
+}
+
+.frame-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  &__feature-img {
+    position: absolute;
+    bottom:1px;
+    right: 0;
+    transform: translateX(495px);
+  }
+  &__white-box {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 42px;
+    z-index: 10;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  &__copy {
+    position: absolute;
+    font-family: "Google Sans", sans-serif;
+    z-index: 5;
+    width: 100%;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 36px;
+    left: 48px;
+    top: 45px;
+    
+    &__one {
+      position: absolute;
+      top: 80px;
+      transform: translateX(-240px);
+    }
+    &__two {
+      position: absolute;
+      top: 121px;
+      transform: translateX(-240px);
+    }
+    &__three {
+      position: absolute;
+      top: 161px;
+      transform: translateX(-240px);
+    }
+    &__four {
+      position: absolute;
+      top: 200px;
+      transform: translateX(-240px);
+    }
+  }
+  &__cta {
+    display: flex;
+  }
+
+  &__cta--link {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4285F4;
+    font-size: 14px;
+    padding: 14px 10px 13px;
+    border: 1px solid #4285F4;
+    border-radius: 3px;
+    left: 51px;
+    top: 268px;
+    letter-spacing: 0.2px;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+.comp {
+  opacity:.4;
+  position:absolute;
+}

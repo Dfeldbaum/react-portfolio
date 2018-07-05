@@ -1,0 +1,25 @@
+@import '../scss/global';
+
+.frame-1 {
+    &__copy {
+        font-size: 20px;
+        left: 47px;
+        font-size:35px;
+        top:20px;
+        &__one {
+          top: 80px;
+        }
+        &__two {
+          top: 122px;
+        }
+        &__three {
+          top:164px;
+        }
+        &__four {
+          top: 206px;
+        }
+      }
+    &__cta--link {
+        top:274px;
+    }
+}

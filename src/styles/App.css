@@ -15,6 +15,12 @@ body, html {
 .wrapper {
   width: 100%; }
 
+.contact {
+  padding-top: 300px; }
+  .contact h1 {
+    font-size: 24px;
+    color: green; }
+
 .header {
   width: 100%;
   position: fixed;
@@ -33,7 +39,8 @@ body, html {
         font-size: 16px;
         font-weight: 400;
         padding-right: 30px;
-        display: inline-block; }
+        display: inline-block;
+        cursor: pointer; }
         .header .nav-wrapper__list li a {
           text-decoration: none;
           color: #8a8a8a;
@@ -51,7 +58,8 @@ body, html {
         font-family: "proxima-nova",sans-serif;
         font-weight: 800;
         font-size: 28px;
-        letter-spacing: 2px; }
+        letter-spacing: 2px;
+        cursor: pointer; }
 
 .projects-section {
   margin: 108px auto 0;
@@ -66,7 +74,8 @@ body, html {
         flex-wrap: wrap;
         flex-direction: row; } }
   .projects-section .item {
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
     @media screen and (min-width: 450px) {
       .projects-section .item {
         width: 50%; } }

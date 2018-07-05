@@ -6,13 +6,13 @@ class Header extends Component {
       <div className="header">
         <div className="nav-wrapper">
           <ul className="nav-wrapper__list">
-            <li><a href="/contact">WORK</a></li>
-            <li><a href="/contact">ABOUT</a></li>
-            <li><a href="/contact">CONTACT</a></li>
+            <li onClick={this.props.showProjects}>WORK</li>
+            <li>ABOUT</li>
+            <li onClick={this.props.showContactUs}>CONTACT</li>
           </ul>
 
           <div className="nav-wrapper__name">
-            <h1>DAVID FELDBAUM</h1>
+            <h1 onClick={this.props.showProjects}>DAVID FELDBAUM</h1>
           </div>
         </div>
       </div>

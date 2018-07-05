@@ -11,12 +11,16 @@ class App extends Component {
     super(props);
 
     this.state = {
-      progress: 'corona-summer',
+      progress: 'projects',
     }
   }
 
   showProjects(){
     this.setState({progress:"projects"})
+  }
+
+  showContactUs(){
+    this.setState({progress:"contact-us"})
   }
 
   showCoronaSummer(){
@@ -27,7 +31,31 @@ class App extends Component {
     let progress = this.state.progress;
 
     if (progress == 'projects'){
-      return <Projects/>
+      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)}/>
+    }
+    if (progress == 'contact-us'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
+    }
+    if (progress == 'corona-summer'){
+      return <Contact/>
     }
     if (progress == 'corona-summer'){
       return <Contact/>
@@ -37,7 +65,7 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-          <Header/>
+          <Header showProjects={this.showProjects.bind(this)} showContactUs={this.showContactUs.bind(this)}/>
 
           {this.PickView()}
 
