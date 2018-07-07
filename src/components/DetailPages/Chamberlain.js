@@ -13,9 +13,9 @@ class Chamberlain extends Component {
       <div className="project-detail-section">
 
         <div className="item text-container">
-          <h1 className="text-container__title">Chamberlain</h1>
-          <h1 className="text-container__subtitle"><span>Built With: </span>HTML5, CSS3, ReactJS</h1>
-          <p className="text-container__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null</p>
+          <h1 className="text-container__title">Chamberlain.com</h1>
+          <h1 className="text-container__subtitle">HTML5, CSS3, Bootstrap, Meteor/Node.js, Prismic</h1>
+          <p className="text-container__copy">Both Liftmaster.com and Chamberlain.com builds were built in unison in local PatternLab environments, respectively. Components were built primarily with FlexBox in Bootstrap layouts. Personally built pages include product detail pages, trade shows/events landing pages, and search results pages. </p>
         </div>
 
         <div class="item img-container">

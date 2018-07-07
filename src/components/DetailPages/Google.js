@@ -13,9 +13,9 @@ class Google extends Component {
       <div className="project-detail-section">
 
         <div className="item text-container">
-          <h1 className="text-container__title">Google Animated HTML5 Banners</h1>
-          <h1 className="text-container__subtitle"><span>Built With: </span>HTML5, CSS3, ReactJS</h1>
-          <p className="text-container__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null</p>
+          <h1 className="text-container__title">Google Animated Banners</h1>
+          <h1 className="text-container__subtitle">HTML5, CSS3, JavaScript, GSAP</h1>
+          <p className="text-container__copy">Utilizing the power of Greensock Animation Platform (GSAP), I've built animated HTML5/JavaScript banners on behalf of the Google and it Google Cloud brand. Banners of varying dimensions are built in a Express/Node.js environment to be served on Google's DoubleClick Network.</p>
         </div>
 
         <div class="item img-container">

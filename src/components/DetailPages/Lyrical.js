@@ -10,12 +10,11 @@ class Lyrical extends Component {
     console.log(this.props);
 
     return (
-
       <div className="project-detail-section">
         <div className="item text-container">
-          <h1 className="text-container__title">Lyrical</h1>
-          <h1 className="text-container__subtitle"><span>Built With: </span>HTML5, CSS3, ReactJS</h1>
-          <p className="text-container__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null</p>
+          <h1 className="text-container__title">Lyrical App</h1>
+          <h1 className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
+          <p className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
         </div>
 
         <div class="item img-container">
