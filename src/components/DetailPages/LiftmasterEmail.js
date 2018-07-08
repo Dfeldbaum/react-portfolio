@@ -18,7 +18,7 @@ class LiftmasterEmail extends Component {
         </div>
 
         <div class="item img-container">
-          <img src="http://placehold.it/1500x1000"/>
+          <img src="/../img/project-dlp-liftmaster-email.jpg"/>
         </div>
       </div>
     );

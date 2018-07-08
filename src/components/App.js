@@ -90,7 +90,7 @@ class App extends Component {
       return <Pataks/>
     }
     if (progress == 'liftmaster'){
-      return <Liftmaster/>
+      return <Liftmaster showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)}/>
     }
     if (progress == 'modelo'){
       return <Modelo/>

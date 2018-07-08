@@ -14,11 +14,11 @@ class About extends Component {
 
         <div className="item text-container">
           <h1 className="text-container__title">About</h1>
-          <p className="text-container__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null</p>
+          <p className="text-container__copy">My passion is bridging the gap between design and programming. My approach to web design is creative, and holistic. I have a wide range of front-end development skills that include HTML5, CSS3, JavaScript, React.js, Bootstrap, and Flexbox Layouts. I have back-end web development proficiency in Node.js/Express, Sinatra, Ruby on Rails, Gulp, MongoDB and mySQL. I have digital marketing expertise in SEO, SEM (Google AdWords, Bing Ads) and Social Media Advertising.</p>
         </div>
 
         <div class="item img-container">
-          <img src="http://placehold.it/1500x1000"/>
+          <img src="/../img/about-dfeldbaum-2.jpg"/>
         </div>
 
       </div>

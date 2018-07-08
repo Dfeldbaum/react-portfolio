@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Projects from './Projects/Projects'
+
 
 class Liftmaster extends Component {
 
@@ -18,10 +20,11 @@ class Liftmaster extends Component {
         </div>
 
         <div class="item img-container">
-          <img src="http://placehold.it/1500x1000"/>
+          <img src="/../img/project-dlp-liftmaster.jpg"/>
         </div>
 
       </div>
+
     );
   }
 }
