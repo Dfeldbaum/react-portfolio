@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Projects from './Projects/Projects'
 
 
 class Liftmaster extends Component {

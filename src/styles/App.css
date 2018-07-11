@@ -29,19 +29,33 @@ body, html {
   background-color: white; }
   .header .nav-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center; }
+    @media (min-width: 767px) {
+      .header .nav-wrapper {
+        flex-direction: row; } }
     .header .nav-wrapper__list {
       list-style-type: none; }
+      @media (max-width: 766px) {
+        .header .nav-wrapper__list {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 272px;
+          margin-bottom: 20px; } }
       .header .nav-wrapper__list li {
         color: #8a8a8a;
         font-family: "proxima-nova",sans-serif;
         font-size: 16px;
         font-weight: 400;
-        padding-right: 30px;
         text-transform: uppercase;
         display: inline-block;
         cursor: pointer; }
+        @media (min-width: 767px) {
+          .header .nav-wrapper__list li {
+            padding-right: 30px; } }
         .header .nav-wrapper__list li a {
           text-decoration: none;
           color: #8a8a8a;
@@ -51,16 +65,20 @@ body, html {
             text-decoration: underline; }
           .header .nav-wrapper__list li a:active {
             color: #8a8a8a; }
-    .header .nav-wrapper__name {
-      position: absolute;
-      right: 45px; }
-      .header .nav-wrapper__name h1 {
-        font-family: "proxima-nova",sans-serif;
-        font-weight: 800;
-        font-size: 28px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        cursor: pointer; }
+    @media (min-width: 767px) {
+      .header .nav-wrapper__name {
+        position: absolute;
+        right: 45px; } }
+    .header .nav-wrapper__name h1 {
+      font-family: "proxima-nova",sans-serif;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer; }
+      @media (max-width: 361px) {
+        .header .nav-wrapper__name h1 {
+          font-size: 23px; } }
 
 .projects-section {
   margin: 108px auto 0;
