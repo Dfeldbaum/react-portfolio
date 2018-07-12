@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Link, Router } from 'react-router-dom';
 import '../styles/App.css';
 import Header from './Header/Header'
+import Footer from './Footer/Footer'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import Projects from './Projects/Projects'
@@ -115,6 +116,8 @@ class App extends Component {
           <Header showProjects={this.showProjects.bind(this)} showAbout={this.showAbout.bind(this)} showContact={this.showContact.bind(this)}/>
 
           {this.PickView()}
+
+          <Footer/>
 
       </div>
     );
