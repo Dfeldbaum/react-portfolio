@@ -23,7 +23,6 @@ class Contact extends Component {
         <div class="item img-container">
           <img src="http://placehold.it/1500x1000"/>
         </div>
-
       </div>
     );
   }
