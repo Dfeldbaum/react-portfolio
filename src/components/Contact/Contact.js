@@ -14,7 +14,10 @@ class Contact extends Component {
 
         <div className="item text-container">
           <h1 className="text-container__title">Contact</h1>
-          <p className="text-container__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat null</p>
+          <p className="text-container__copy">
+            Want to collaborate? <br/>
+            Please email me at defeldbaum@gmail.com or call (901)-848-6450. Thanks!
+          </p>
         </div>
 
         <div class="item img-container">

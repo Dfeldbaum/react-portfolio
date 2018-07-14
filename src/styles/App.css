@@ -50,7 +50,7 @@ body, html {
         color: #8a8a8a;
         font-family: "proxima-nova",sans-serif;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 300;
         text-transform: uppercase;
         display: inline-block;
         cursor: pointer; }
@@ -98,7 +98,7 @@ body, html {
     color: #8a8a8a;
     font-family: "proxima-nova",sans-serif;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 auto;
     text-align: center; }
   .footer__social-wrapper p {
@@ -123,6 +123,8 @@ body, html {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row; } }
+  .projects-section #item--darken {
+    background: rgba(0, 0, 0, 0.5); }
   .projects-section .item {
     width: 100%;
     cursor: pointer; }

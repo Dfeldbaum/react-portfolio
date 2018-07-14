@@ -18,7 +18,7 @@ class About extends Component {
         </div>
 
         <div class="item img-container">
-          <img src="/../img/about-dfeldbaum-2.jpg"/>
+          <img src="/../img/about-dfeldbaum-3.jpg"/>
         </div>
 
       </div>

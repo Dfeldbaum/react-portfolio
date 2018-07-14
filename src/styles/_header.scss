@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     @media(min-width: $screen-sm) {
       flex-direction: row;
     }
@@ -17,7 +17,7 @@
 
     &__list {
       list-style-type: none;
-      
+
       @media(max-width: 766px) {
         display: flex;
         flex-direction: row;
@@ -32,12 +32,12 @@
         color: $gray;
         font-family: "proxima-nova",sans-serif;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 300;
         text-transform: uppercase;
         display: inline-block;
         cursor: pointer;
-        
-        
+
+
         @media(min-width: $screen-sm) {
           padding-right: 30px;
         }
@@ -63,15 +63,15 @@
 
       @media(min-width: $screen-sm) {
         position: absolute;
-        right: 45px;  
+        right: 45px;
       }
-      
-    
+
+
       h1 {
         @media(max-width: 361px) {
           font-size:23px;
         }
-        
+
         font-family: "proxima-nova",sans-serif;
         font-weight: 800;
         font-size: 28px;

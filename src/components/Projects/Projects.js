@@ -17,6 +17,7 @@ class Projects extends Component {
   render() {
 
     console.log(this.props);
+    const hoverDarken = this.state.isHovered ? "item--darken" : "item--blank";
 
     return (
 
