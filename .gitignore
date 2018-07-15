@@ -3,7 +3,6 @@
 
 
 # production
-/build
 
 # misc
 npm-debug.log*
