@@ -11,7 +11,6 @@ class Contact extends Component {
 
     return (
       <div className="about-section">
-
         <div className="item text-container">
           <h1 className="text-container__title">Contact</h1>
           <p className="text-container__copy">
