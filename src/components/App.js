@@ -14,6 +14,12 @@ import Chamberlain from './DetailPages/Chamberlain'
 import LiftmasterEmail from './DetailPages/LiftmasterEmail'
 import Google from './DetailPages/Google'
 import Lyrical from './DetailPages/Lyrical'
+import Amway from './DetailPages/Amway'
+import Eaton from './DetailPages/Eaton'
+import TTI from './DetailPages/TTI'
+import NYU from './DetailPages/NYU'
+import CalLottery from './DetailPages/CalLottery'
+import JJVentures from './DetailPages/JJVentures'
 
 
 
@@ -72,11 +78,38 @@ class App extends Component {
     this.setState({progress:"lyrical"})
   }
 
+
+  showAmway(){
+    this.setState({progress:"amway"})
+  }
+
+
+  showEaton(){
+    this.setState({progress:"eaton"})
+  }
+
+
+  showTTI(){
+    this.setState({progress:"tti"})
+  }
+
+  showNYU(){
+    this.setState({progress:"nyu"})
+  }
+
+  showCalLottery(){
+    this.setState({progress:"cal-lottery"})
+  }
+
+  showJJVentures(){
+    this.setState({progress:"jj-ventures"})
+  }
+
   PickView(props){
     let progress = this.state.progress;
 
     if (progress == 'projects'){
-      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)}/>
+      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)} showAmway={this.showAmway.bind(this)} showEaton={this.showEaton.bind(this)} showTTI={this.showTTI.bind(this)} showNYU={this.showNYU.bind(this)} showCalLottery={this.showCalLottery.bind(this)} showJJVentures={this.showJJVentures.bind(this)} />
     }
     if (progress == 'contact'){
       return <Contact/>
@@ -107,6 +140,24 @@ class App extends Component {
     }
     if (progress == 'lyrical'){
       return <Lyrical/>
+    }
+    if (progress == 'amway'){
+      return <Amway/>
+    }
+    if (progress == 'eaton'){
+      return <Eaton/>
+    }
+    if (progress == 'tti'){
+      return <TTI/>
+    }
+    if (progress == 'nyu'){
+      return <NYU/>
+    }
+    if (progress == 'cal-lottery'){
+      return <CalLottery/>
+    }
+    if (progress == 'jj-ventures'){
+      return <JJVentures/>
     }
   }
 

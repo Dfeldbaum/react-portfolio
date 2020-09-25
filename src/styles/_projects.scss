@@ -1,14 +1,10 @@
 .projects-section {
-
   margin: 164px auto 0;
   padding: 0 0;
 
   @media(min-width: $screen-sm) {
-    margin: 108px auto 0;
+    margin: 110px auto 0;
   }
-
-  // max-width: 1200px;
-
 
   .grid {
     display: flex;
@@ -20,14 +16,24 @@
       flex-wrap: wrap;
       flex-direction: row;
     }
-  }
 
-  #item--darken {
-    background: rgba(0, 0, 0, 0.5);
+    .item--hover-active {
+      background-color: rgba(255, 255, 255, 0.9);
+      transition: 1s;
 
+      h3 {
+        opacity: 1 !important;
+        transition: 1s;
+      }
+    }
+
+    .item--hover-inactive {
+      visibility: hidden;
+    }
   }
 
   .item {
+    position: relative;
     width: 100%;
     cursor: pointer;
 
@@ -36,101 +42,112 @@
       width: 50%;
     }
 
-    // @media screen and (min-width: $screen-sm) {
-    //   width: calc(100% / 3);
-    // }
-
-    @media screen and (min-width: $screen-md) {
-      width: calc(100% / 3);
-    }
-
-    @media screen and (min-width: $screen-lg) {
+    @media screen and (min-width: $screen-sm) {
       width: calc(100% / 4);
     }
 
-    @media (min-width: 1650px) {
-      width: calc(100% / 5);
+    // @media (min-width: 1650px) {
+    //   width: calc(100% / 5);
+    // }
+
+
+    img {
+      display: block;
+      max-width: 100%;
+      visibility: hidden;
     }
 
-  }
-  //
-  // .responsive-image {
-  //   max-width: 100%;
-  // }
+    .layer {
+      padding: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
 
-  .item img {
-    display: block;
-    max-width: 100%;
+      h3 {
+        font-family: "proxima-nova",sans-serif;
+        font-weight: 800;
+        font-size: 35px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        opacity: 0;
+      }
+    }
   }
 
   .item1 {
-    img {
-      visibility: hidden;
-    }
     background: url('/../img/project-grid-corona-summer.jpg') no-repeat center center;
     background-size: cover;
   }
 
   .item2 {
-    img {
-      visibility: hidden;
-    }
     background: url('/../img/project-grid-pataks.jpg') no-repeat center center;
     background-size: cover;
   }
 
   .item3 {
-    img {
-      visibility: hidden;
-    }
-    background: url('/../img/project-grid-liftmaster2.jpg') no-repeat center center;
+    background: url('/../img/project-grid-liftmaster-new-1.png') no-repeat center top;
     background-size: cover;
   }
 
   .item4 {
-    img {
-      visibility: hidden;
-    }
     background: url('/../img/project-grid-modelo.png') no-repeat center center;
     background-size: cover;
   }
 
   .item5 {
-    img {
-      visibility: hidden;
-    }
     background: url('/../img/project-grid-chamberlain.jpg') no-repeat center center;
     background-size: cover;
   }
 
   .item6 {
-    img {
-      visibility: hidden;
-    }
-    background: url('/../img/project-grid-liftmaster.jpg') no-repeat center center;
+    background: url('/../img/project-grid-liftmaster2.jpg') no-repeat center center;
     background-size: cover;
   }
 
   .item7 {
-    img {
-      visibility: hidden;
-    }
     background: url('/../img/project-grid-google-cloud.png') no-repeat center center;
     background-size: cover;
   }
 
   .item8 {
-    img {
-      visibility: hidden;
-    }
     background: url('/../img/project-grid-lyrical.png') no-repeat center left;
     background-size: cover;
   }
 
+  .item9 {
+    background: url('/../img/project-grid-amway.png') no-repeat center left;
+    background-size: cover;
+  }
 
+  .item10 {
+    background: url('/../img/project-grid-eaton-800-C.png') no-repeat center left;
+    background-size: cover;
+  }
 
+  .item11 {
+    background: url('/../img/project-grid-tti.png') no-repeat center center;
+    background-size: cover;
+  }
 
+  .item12 {
+    background: url('/../img/project-grid-csl-2-2.png') no-repeat center left;
+    background-size: cover;
+  }
 
+  .item13 {
+    background: url('/../img/project-grid-nyu-1.png') no-repeat center center;
+    background-size: cover;
+  }
 
-
+  .item14 {
+    background: url('/../img/project-grid-jj-ventures-2.png') no-repeat center center;
+    background-size: cover;
+  }
  }
