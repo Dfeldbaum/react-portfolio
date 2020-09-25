@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './components/App';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
   <Router>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Projects extends Component {
 
   constructor(props) {
@@ -227,98 +228,98 @@ class Projects extends Component {
         <div className="grid">
           <div className="item item1" onClick={this.props.showCoronaSummer} onMouseEnter={this.handleMouseEnter1} onMouseLeave={this.handleMouseLeave1}>
             <div className={"layer " + hoverState1}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
 
           <div className="item item2" onClick={this.props.showPataks} onMouseEnter={this.handleMouseEnter2} onMouseLeave={this.handleMouseLeave2}>
             <div className={"layer " + hoverState2}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
 
           <div className="item item3" onClick={this.props.showLiftmaster} onMouseEnter={this.handleMouseEnter3} onMouseLeave={this.handleMouseLeave3}>
             <div className={"layer " + hoverState3}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
 
           <div className="item item4" onClick={this.props.showModelo} onMouseEnter={this.handleMouseEnter4} onMouseLeave={this.handleMouseLeave4}>
             <div className={"layer " + hoverState4}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item5" onClick={this.props.showChamberlain} onMouseEnter={this.handleMouseEnter5} onMouseLeave={this.handleMouseLeave5}>
             <div className={"layer " + hoverState5}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item6" onClick={this.props.showLiftmasterEmail} onMouseEnter={this.handleMouseEnter6} onMouseLeave={this.handleMouseLeave6}>
             <div className={"layer " + hoverState6}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item7" onClick={this.props.showGoogle} onMouseEnter={this.handleMouseEnter7} onMouseLeave={this.handleMouseLeave7}>
             <div className={"layer " + hoverState7}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item8" onClick={this.props.showLyrical} onMouseEnter={this.handleMouseEnter8} onMouseLeave={this.handleMouseLeave8}>
             <div className={"layer " + hoverState8}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item9" onClick={this.props.showAmway} onMouseEnter={this.handleMouseEnter9} onMouseLeave={this.handleMouseLeave9}>
             <div className={"layer " + hoverState9}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item10" onClick={this.props.showEaton} onMouseEnter={this.handleMouseEnter10} onMouseLeave={this.handleMouseLeave10}>
             <div className={"layer " + hoverState10}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item11" onClick={this.props.showTTI} onMouseEnter={this.handleMouseEnter11} onMouseLeave={this.handleMouseLeave11}>
             <div className={"layer " + hoverState11}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item12" onClick={this.props.showCalLottery} onMouseEnter={this.handleMouseEnter12} onMouseLeave={this.handleMouseLeave12}>
             <div className={"layer " + hoverState12}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item13" onClick={this.props.showNYU} onMouseEnter={this.handleMouseEnter13} onMouseLeave={this.handleMouseLeave13}>
             <div className={"layer " + hoverState13}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
           <div className="item item14" onClick={this.props.showJJVentures} onMouseEnter={this.handleMouseEnter14} onMouseLeave={this.handleMouseLeave14}>
             <div className={"layer " + hoverState14}>
-              <h3>VIEW <br /> PROJECT</h3>
+              <h3>View Project <i className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>

@@ -1,10 +1,12 @@
 .project-detail-section {
+  // background-color: green;
   display: flex;
   flex-direction: column;
-  margin: 108px auto 0;
+  margin: 181px auto 0;
   padding: 45px;
 
   @media screen and (min-width: $screen-sm) {
+    margin: 110px auto 0;
     flex-direction: row;
   }
 
@@ -30,11 +32,14 @@
     &__title {
       font-size: 28px;
       font-weight: 100;
+      transform: translateX(-100%);
+      // transform: translateY(-150%);
     }
 
     &__subtitle {
       font-size: 16px;
       font-weight: 100;
+      transform: translateX(-100%);
 
       span {
         font-weight: 100;
@@ -45,6 +50,7 @@
       font-size: 14px;
       font-weight: 400;
       padding-right: 50px;
+      transform: translateX(-100%);
     }
 
   }
