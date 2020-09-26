@@ -13,8 +13,8 @@ class Contact extends Component {
       <div className="about-section">
 
         <div className="item text-container">
-          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">Contact</h1>
-          <p ref={p => this.projectCopy = p} className="text-container__copy">
+          <h1 className="text-container__title">Contact</h1>
+          <p className="text-container__copy">
             Want to collaborate? <br/>
             Please email me at defeldbaum@gmail.com or call (901)-848-6450. Thanks!
           </p>

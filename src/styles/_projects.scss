@@ -46,11 +46,6 @@
       width: calc(100% / 4);
     }
 
-    // @media (min-width: 1650px) {
-    //   width: calc(100% / 5);
-    // }
-
-
     img {
       display: block;
       max-width: 100%;
@@ -70,7 +65,7 @@
       height: 100%;
       text-align: center;
 
-      @media screen and (min-width: 768px) and (max-width: 850px) {
+      @media screen and (min-width: 767px) and (max-width: 850px) {
         padding: 2%;
       }
 

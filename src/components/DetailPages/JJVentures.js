@@ -9,6 +9,7 @@ class JJVentures extends Component {
     this.projectTitle = null;
     this.projectSubTitle = null;
     this.projectCopy = null;
+    this.btn = null;
     // animation timeline
     this.timeline = new TimelineLite({paused: true});
   }
@@ -20,6 +21,7 @@ class JJVentures extends Component {
     .to(this.projectTitle, .5, {x: 0, force3D: true})
     .to(this.projectSubTitle, .5, {x: 0, force3D: true}, '-=.25')
     .to(this.projectCopy, .5, {x: 0, force3D: true}, '-=.25')
+    .to(this.btn, .5, {x: 0, force3D: true}, '-=.25')
     .play();
   }
 
@@ -32,6 +34,7 @@ class JJVentures extends Component {
           <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">JJ Ventures</h1>
           <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
           <p ref={p => this.projectCopy = p} className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
+          <a ref={a => this.btn = a} href="https://www.jjventures.com/" target="_blank" className="button">Visit JJ Ventures</a>
         </div>
 
         <div class="item img-container">

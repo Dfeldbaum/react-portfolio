@@ -9,6 +9,7 @@ class Pataks extends Component {
     this.projectTitle = null;
     this.projectSubTitle = null;
     this.projectCopy = null;
+    this.btn = null;
     // animation timeline
     this.timeline = new TimelineLite({paused: true});
   }
@@ -20,6 +21,7 @@ class Pataks extends Component {
     .to(this.projectTitle, .5, {x: 0, force3D: true})
     .to(this.projectSubTitle, .5, {x: 0, force3D: true}, '-=.25')
     .to(this.projectCopy, .5, {x: 0, force3D: true}, '-=.25')
+    .to(this.btn, .5, {x: 0, force3D: true}, '-=.25')
     .play();
   }
 
@@ -32,6 +34,7 @@ class Pataks extends Component {
           <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">PataksUSA.com</h1>
           <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, Bootstrap, Meteor/Node.js, Prismic</h1>
           <p ref={p => this.projectCopy = p} className="text-container__copy">PataksUSA.com is a Meteor web application with a Prismic headless CMS integration to manage products and categorizaton across the web property. Created in under a month as part of a two man development team I was responsible for the entirety of Patak's front end, which features a fully responsive design, Slick.js product carousels and numerous product filtering mechanisms.</p>
+          <a ref={a => this.btn = a} href="https://www.pataksusa.com/" target="_blank" className="button">Visit Pataks</a>
         </div>
 
         <div class="item img-container">

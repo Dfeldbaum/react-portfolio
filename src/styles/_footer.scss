@@ -17,9 +17,7 @@
   }
 
   &__name-wrapper {
-    @media(max-width: 766px) {
-      // margin-bottom: 10px;
-    }
+    transform: translateX(-150%);
 
     p {
       color: $gray;

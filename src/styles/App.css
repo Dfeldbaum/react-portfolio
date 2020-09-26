@@ -32,7 +32,7 @@ body, html {
   padding: 55px 45px 55px 45px; }
   @media (max-width: 766px) {
     .header {
-      padding: 45px; } }
+      padding: 17px; } }
   .header .nav-wrapper {
     display: flex;
     flex-direction: column;
@@ -80,12 +80,12 @@ body, html {
           .header .nav-wrapper__list li a:active {
             color: #8a8a8a; }
     .header .nav-wrapper__name {
-      top: 8%;
       opacity: 0; }
       @media (min-width: 767px) {
         .header .nav-wrapper__name {
           position: absolute;
-          right: 45px; } }
+          right: 45px;
+          top: 8%; } }
       .header .nav-wrapper__name h1 {
         font-family: "proxima-nova",sans-serif;
         font-weight: 800;
@@ -105,6 +105,15 @@ body, html {
         text-transform: uppercase;
         cursor: pointer;
         padding-left: 1px; }
+        @media (max-width: 361px) {
+          .header .nav-wrapper__name h3 {
+            font-size: 23px; } }
+        @media (max-width: 600px) {
+          .header .nav-wrapper__name h3 {
+            transform: translateX(150%); } }
+        @media (max-width: 767px) {
+          .header .nav-wrapper__name h3 {
+            transform: translateX(190%); } }
 
 .footer {
   width: 100%;
@@ -119,13 +128,15 @@ body, html {
       display: flex;
       flex-direction: row;
       justify-content: space-between; } }
-  .footer__name-wrapper p {
-    color: #8a8a8a;
-    font-family: "proxima-nova",sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    margin: 0 auto;
-    text-align: center; }
+  .footer__name-wrapper {
+    transform: translateX(-150%); }
+    .footer__name-wrapper p {
+      color: #8a8a8a;
+      font-family: "proxima-nova",sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      margin: 0 auto;
+      text-align: center; }
   .footer__social-wrapper p {
     color: #8a8a8a;
     font-family: "proxima-nova",sans-serif;
@@ -182,7 +193,7 @@ body, html {
       width: 100%;
       height: 100%;
       text-align: center; }
-      @media screen and (min-width: 768px) and (max-width: 850px) {
+      @media screen and (min-width: 767px) and (max-width: 850px) {
         .projects-section .item .layer {
           padding: 2%; } }
       .projects-section .item .layer h3 {
@@ -294,6 +305,36 @@ body, html {
     .project-detail-section .img-container img {
       max-width: 100%;
       height: auto; }
+  .project-detail-section .button {
+    margin-top: 30px;
+    background-color: white;
+    color: #333333;
+    padding: 20px 64px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "proxima-nova",sans-serif;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transform: translateX(-120%); }
+    @media only screen and (min-width: 767px) {
+      .project-detail-section .button {
+        width: auto;
+        margin-bottom: 0; } }
+    @media only screen and (min-width: 992px) {
+      .project-detail-section .button {
+        padding: 20px 96px; } }
+    .project-detail-section .button:hover, .project-detail-section .button:focus {
+      background-color: #333333;
+      color: #FFFFFF;
+      text-decoration: none;
+      border: 1px solid #333333; }
 
 .about-section {
   display: flex;
