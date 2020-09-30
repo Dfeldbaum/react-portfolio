@@ -19,10 +19,7 @@ class Contact extends Component {
         <div className="item text-container">
           <h1 className="text-container__title">Contact</h1>
           <p className="text-container__copy">
-            Want to collaborate? 
-            <br/>
-            <br/>
-            Please email me at defeldbaum@gmail.com or call (901)-848-6450. Thanks!
+            Want to collaborate? Please email me at defeldbaum@gmail.com or call (901)-848-6450. Thanks!
           </p>
         </div>
 
