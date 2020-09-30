@@ -21,6 +21,7 @@ class Projects extends Component {
       isHovered12: false,
       isHovered13: false,
       isHovered14: false,
+      isHovered15: false,
      };
 
     // reference to els
@@ -38,6 +39,7 @@ class Projects extends Component {
     this.carot12 = null;
     this.carot13 = null;
     this.carot14 = null;
+    this.carot15 = null;
     // animation timeline
     this.timeline1 = new TimelineLite({paused: true});
     this.timeline2 = new TimelineLite({paused: true});
@@ -53,6 +55,7 @@ class Projects extends Component {
     this.timeline12 = new TimelineLite({paused: true});
     this.timeline13 = new TimelineLite({paused: true});
     this.timeline14 = new TimelineLite({paused: true});
+    this.timeline15 = new TimelineLite({paused: true});
   }
 
   componentDidUpdate() {
@@ -192,6 +195,16 @@ class Projects extends Component {
   }
 
   startBounceAnimation14 = () => {
+    this.timeline14
+    .set({}, {}, "+=.75")
+    .to(this.carot14, 0.2, {x: 5, force3D: true})
+    .to(this.carot14, 0.2, {x: 0, force3D: true})
+    .to(this.carot14, 0.2, {x: 5, force3D: true})
+    .to(this.carot14, 0.2, {x: 0, force3D: true})
+    .play();
+  }
+
+  startBounceAnimation15 = () => {
     this.timeline14
     .set({}, {}, "+=.75")
     .to(this.carot14, 0.2, {x: 5, force3D: true})
@@ -398,6 +411,20 @@ class Projects extends Component {
     });
   }
 
+  handleMouseEnter15 = () => {
+    this.setState({
+        isHovered15 : true
+    });
+
+    this.startBounceAnimation15();
+  }
+
+  handleMouseLeave15 = () => {
+    this.setState({
+        isHovered15 : false
+    });
+  }
+
   render() {
     console.log(this.props, 'props from render');
     const hoverState1 = this.state.isHovered1 ? "item--hover-active" : "item--hover-inactive";
@@ -414,6 +441,7 @@ class Projects extends Component {
     const hoverState12 = this.state.isHovered12 ? "item--hover-active" : "item--hover-inactive";
     const hoverState13 = this.state.isHovered13 ? "item--hover-active" : "item--hover-inactive";
     const hoverState14 = this.state.isHovered14 ? "item--hover-active" : "item--hover-inactive";
+    const hoverState15 = this.state.isHovered15 ? "item--hover-active" : "item--hover-inactive";
 
     return (
 
@@ -481,36 +509,43 @@ class Projects extends Component {
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
-          
-          <div className="item item10" onClick={this.props.showEaton} onMouseEnter={this.handleMouseEnter10} onMouseLeave={this.handleMouseLeave10}>
-            <div className={"layer " + hoverState10}>
-              <h3>View Project <i ref={i => this.carot10 = i} className="layer__icon fa fa-angle-right"></i></h3>
-            </div>
-            <img src="http://placehold.it/800x800"/>
-          </div>
-          
-          <div className="item item11" onClick={this.props.showTTI} onMouseEnter={this.handleMouseEnter11} onMouseLeave={this.handleMouseLeave11}>
+
+          <div className="item item10" onClick={this.props.showTTI} onMouseEnter={this.handleMouseEnter11} onMouseLeave={this.handleMouseLeave11}>
             <div className={"layer " + hoverState11}>
               <h3>View Project <i ref={i => this.carot11 = i} className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
-          <div className="item item12" onClick={this.props.showCalLottery} onMouseEnter={this.handleMouseEnter12} onMouseLeave={this.handleMouseLeave12}>
+          <div className="item item11" onClick={this.props.showEaton} onMouseEnter={this.handleMouseEnter10} onMouseLeave={this.handleMouseLeave10}>
+            <div className={"layer " + hoverState10}>
+              <h3>View Project <i ref={i => this.carot10 = i} className="layer__icon fa fa-angle-right"></i></h3>
+            </div>
+            <img src="http://placehold.it/800x800"/>
+          </div>
+
+          <div className="item item12" onClick={this.props.showNYU} onMouseEnter={this.handleMouseEnter13} onMouseLeave={this.handleMouseLeave13}>
+            <div className={"layer " + hoverState13}>
+              <h3>View Project <i ref={i => this.carot13 = i} className="layer__icon fa fa-angle-right"></i></h3>
+            </div>
+            <img src="http://placehold.it/800x800"/>
+          </div>
+
+          <div className="item item13" onClick={this.props.showHyatt} onMouseEnter={this.handleMouseEnter15} onMouseLeave={this.handleMouseLeave15}>
+            <div className={"layer " + hoverState15}>
+              <h3>View Project <i ref={i => this.carot14 = i} className="layer__icon fa fa-angle-right"></i></h3>
+            </div>
+            <img src="http://placehold.it/800x800"/>
+          </div>
+          
+          <div className="item item14" onClick={this.props.showCalLottery} onMouseEnter={this.handleMouseEnter12} onMouseLeave={this.handleMouseLeave12}>
             <div className={"layer " + hoverState12}>
               <h3>View Project <i ref={i => this.carot12 = i} className="layer__icon fa fa-angle-right"></i></h3>
             </div>
             <img src="http://placehold.it/800x800"/>
           </div>
           
-          <div className="item item13" onClick={this.props.showNYU} onMouseEnter={this.handleMouseEnter13} onMouseLeave={this.handleMouseLeave13}>
-            <div className={"layer " + hoverState13}>
-              <h3>View Project <i ref={i => this.carot13 = i} className="layer__icon fa fa-angle-right"></i></h3>
-            </div>
-            <img src="http://placehold.it/800x800"/>
-          </div>
-          
-          <div className="item item14" onClick={this.props.showJJVentures} onMouseEnter={this.handleMouseEnter14} onMouseLeave={this.handleMouseLeave14}>
+          <div className="item item15" onClick={this.props.showJJVentures} onMouseEnter={this.handleMouseEnter14} onMouseLeave={this.handleMouseLeave14}>
             <div className={"layer " + hoverState14}>
               <h3>View Project <i ref={i => this.carot14 = i} className="layer__icon fa fa-angle-right"></i></h3>
             </div>

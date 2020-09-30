@@ -29,9 +29,9 @@ class NYU extends Component {
     return (
       <div className="project-detail-section">
         <div className="item text-container">
-          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">NYU</h1>
-          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
-          <p ref={p => this.projectCopy = p} className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
+          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">NYU College of Arts of Sciences</h1>
+          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: Webpack, JavaScript, HTML5, SASS/CSS3</h1>
+          <p ref={p => this.projectCopy = p} className="text-container__copy">In August of 2019, working as part of a two-person front end development team we shared responsibilities for the development of an interactive College of Arts and Sciences landing page. My role included the creation of the user interface and styles along with the programming of a animating background on user scroll. We created the landing page in a Webpack app and delivered to the AEM implementation team.</p>
         </div>
 
         <div class="item img-container">

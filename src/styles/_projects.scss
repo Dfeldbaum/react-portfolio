@@ -4,6 +4,7 @@
 
   @media(min-width: $screen-sm) {
     margin: 110px auto 0;
+    padding-bottom: 75px;
   }
 
   .grid {
@@ -146,26 +147,31 @@
   }
 
   .item10 {
-    background: url('/../img/project-grid-eaton-800-C.png') no-repeat center left;
-    background-size: cover;
-  }
-
-  .item11 {
     background: url('/../img/project-grid-tti.png') no-repeat center center;
     background-size: cover;
   }
 
-  .item12 {
-    background: url('/../img/project-grid-csl-2-2.png') no-repeat center left;
+  .item11 {
+    background: url('/../img/project-grid-eaton-800-C.png') no-repeat center left;
     background-size: cover;
   }
 
-  .item13 {
+  .item12 {
     background: url('/../img/project-grid-nyu-1.png') no-repeat center center;
     background-size: cover;
   }
 
+  .item13 {
+    background: url('/../img/project-grid-hyatt.jpg') no-repeat left center;
+    background-size: cover;
+  }
+
   .item14 {
+    background: url('/../img/project-grid-csl-2-2.png') no-repeat center left;
+    background-size: cover;
+  }
+
+  .item15 {
     background: url('/../img/project-grid-jj-ventures-2.png') no-repeat center center;
     background-size: cover;
   }

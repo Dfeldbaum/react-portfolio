@@ -30,8 +30,8 @@ class Amway extends Component {
       <div className="project-detail-section">
         <div className="item text-container">
           <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">Amway</h1>
-          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
-          <p ref={p => this.projectCopy = p} className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
+          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: Polymer, Redux, HTML5, SASS/CSS3</h1>
+          <p ref={p => this.projectCopy = p} className="text-container__copy">As part of a dedicated ICF Next front end team, I worked on Amway’s MyBiz internal user platform various backlog tickets. I had the responsibility of refactoring, updating and debugging several MyBiz components in addition to various reusable core components across the platform. Additionally, I utilized Tealium’s Tag Management System alongside internal Amway’s stakeholders to tag user events across the site for site analytics.</p>
         </div>
 
         <div class="item img-container">

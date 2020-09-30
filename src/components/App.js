@@ -18,6 +18,7 @@ import Amway from './DetailPages/Amway'
 import Eaton from './DetailPages/Eaton'
 import TTI from './DetailPages/TTI'
 import NYU from './DetailPages/NYU'
+import Hyatt from './DetailPages/Hyatt'
 import CalLottery from './DetailPages/CalLottery'
 import JJVentures from './DetailPages/JJVentures'
 
@@ -97,6 +98,10 @@ class App extends Component {
     this.setState({progress:"nyu"})
   }
 
+  showHyatt(){
+    this.setState({progress:"hyatt"})
+  }
+
   showCalLottery(){
     this.setState({progress:"cal-lottery"})
   }
@@ -109,7 +114,7 @@ class App extends Component {
     let progress = this.state.progress;
 
     if (progress == 'projects'){
-      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)} showAmway={this.showAmway.bind(this)} showEaton={this.showEaton.bind(this)} showTTI={this.showTTI.bind(this)} showNYU={this.showNYU.bind(this)} showCalLottery={this.showCalLottery.bind(this)} showJJVentures={this.showJJVentures.bind(this)} />
+      return <Projects showCoronaSummer={this.showCoronaSummer.bind(this)} showPataks={this.showPataks.bind(this)} showLiftmaster={this.showLiftmaster.bind(this)} showModelo={this.showModelo.bind(this)} showChamberlain={this.showChamberlain.bind(this)} showLiftmasterEmail={this.showLiftmasterEmail.bind(this)} showGoogle={this.showGoogle.bind(this)} showLyrical={this.showLyrical.bind(this)} showAmway={this.showAmway.bind(this)} showEaton={this.showEaton.bind(this)} showTTI={this.showTTI.bind(this)} showNYU={this.showNYU.bind(this)} showHyatt={this.showHyatt.bind(this)} showCalLottery={this.showCalLottery.bind(this)} showJJVentures={this.showJJVentures.bind(this)} />
     }
     if (progress == 'contact'){
       return <Contact/>
@@ -152,6 +157,9 @@ class App extends Component {
     }
     if (progress == 'nyu'){
       return <NYU/>
+    }
+    if (progress == 'hyatt'){
+      return <Hyatt/>
     }
     if (progress == 'cal-lottery'){
       return <CalLottery/>

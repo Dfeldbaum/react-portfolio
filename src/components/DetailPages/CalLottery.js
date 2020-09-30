@@ -32,8 +32,8 @@ class CalLottery extends Component {
       <div className="project-detail-section">
         <div className="item text-container">
           <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">California State Lottery</h1>
-          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
-          <p ref={p => this.projectCopy = p} className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
+          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Sitecore, React, Redux, SASS/CSS3</h1>
+          <p ref={p => this.projectCopy = p} className="text-container__copy">As part of a large ICF Next team, I was a co-lead front end developer for the rebuild of the California State Lottery’s Scratchers landing page and Scratchers detail page. I was personally responsible for the creation of the Sitecore codebase’s first React app and Redux implementation, which included a highly-efficient data store tied to CSL API endpoints to pass data to custom React components used on Scratchers pages.</p>
           <a ref={a => this.btn = a} href="https://www.calottery.com/scratchers" target="_blank" className="button">Visit CSL</a>
         </div>
 

@@ -31,9 +31,9 @@ class TTI extends Component {
     return (
       <div className="project-detail-section">
         <div className="item text-container">
-          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">TTI, Inc.</h1>
+          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">TTI.com</h1>
           <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
-          <p ref={p => this.projectCopy = p} className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
+          <p ref={p => this.projectCopy = p} className="text-container__copy">My first AEM project as a lead front end developer, TTI was an enriching client augmentation project during the winter of 2019. Working under the direction of TTI’s digital staff, I was tasked with building the front end interface and primary functionality of several internal intranet tool as the styles refactoring for a majority of the codebase. I was also tasked with front end development updates to pre-existing custom AEM components and a rebuild of their primary product detail pages.</p>
           <a ref={a => this.btn = a} href="https://www.tti.com/content/ttiinc/en.html" target="_blank" className="button">Visit TTI</a>
         </div>
 

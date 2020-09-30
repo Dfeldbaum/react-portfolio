@@ -31,9 +31,9 @@ class Eaton extends Component {
     return (
       <div className="project-detail-section">
         <div className="item text-container">
-          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">Eaton</h1>
-          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, JavaScript, Angular, Express/Node.js, Ruby/Sinatra</h1>
-          <p ref={p => this.projectCopy = p} className="text-container__copy">Lyrical is a secure angular app that allows users to search, create, and save lyrics in one interface. Data is stored in relational mySQL tables and user authentication is secured with bCrypt. The Lyrical server side is built with Sinatra/Ruby and utilizes a RESTful API for user account and lyric data.</p>
+          <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">Eaton.com</h1>
+          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: AEM, JavaScript, HTML5, SASS/CSS3</h1>
+          <p ref={p => this.projectCopy = p} className="text-container__copy">For little over a year, I led the front end development team as part of ICF Next’s engagement with Eaton Corporation, a global power management company. Along with daily development obligations, I was responsible for management of ICF Next front end developers on the project, estimation of front end stories/tasks, demonstration of completed work and front end development communication with internal Eaton stakeholders and ICF Next teammates. Completed deliverables include sitewide AEM component builds and enhancements (custom and out-of-the-box components), style guide implementation and the recreation of 4 popular subdomain tools as AEM components on the primary domain.</p>
           <a ref={a => this.btn = a} href="https://www.eaton.com/us/en-us.html" target="_blank" className="button">Visit Eaton</a>
         </div>
 

@@ -18,6 +18,7 @@
     @media screen and (min-width: $screen-sm) {
       width: 35%;
       margin-bottom: 0;
+      margin-right: 20px;
     }
 
     &__title, &__subtitle {
@@ -47,7 +48,7 @@
     }
 
     &__copy {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 400;
       padding-right: 50px;
       transform: translateX(-100%);
