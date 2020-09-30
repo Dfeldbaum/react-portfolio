@@ -6,6 +6,10 @@ class Contact extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     console.log(this.props);
 
@@ -21,7 +25,7 @@ class Contact extends Component {
         </div>
 
         <div class="item img-container">
-          <img src="http://placehold.it/1500x1000"/>
+          {/* <img src="http://placehold.it/1500x1000"/> */}
         </div>
       </div>
     );

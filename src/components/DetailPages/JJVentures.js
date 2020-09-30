@@ -38,7 +38,7 @@ class JJVentures extends Component {
         </div>
 
         <div class="item img-container">
-          <img src="/../img/project-dlp-lyrical.png"/>
+          <img src="/../img/project-dlp-jj-ventures.jpg"/>
         </div>
 
       </div>

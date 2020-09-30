@@ -38,7 +38,7 @@ class Eaton extends Component {
         </div>
 
         <div class="item img-container">
-          <img src="/../img/project-dlp-lyrical.png"/>
+          <img src="/../img/project-dlp-eaton.jpg"/>
         </div>
 
       </div>
