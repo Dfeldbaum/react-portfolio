@@ -1,10 +1,11 @@
 .about-section {
   display: flex;
   flex-direction: column;
-  margin: 108px auto 0;
+  margin: 181px auto 0;
   padding: 45px;
 
   @media screen and (min-width: $screen-sm) {
+    margin: 108px auto 0;
     flex-direction: row;
   }
 
@@ -44,7 +45,10 @@
     &__copy {
       font-size: 14px;
       font-weight: 400;
-      padding-right: 50px;
+
+      @media screen and (min-width: $screen-sm) {
+        padding-right: 50px;
+      }
     }
 
   }
