@@ -80,9 +80,11 @@ body, html {
           .header .nav-wrapper__list li a:active {
             color: #8a8a8a; }
     .header .nav-wrapper__name {
-      opacity: 0; }
+      opacity: 0;
+      padding-bottom: 40px; }
       @media (min-width: 767px) {
         .header .nav-wrapper__name {
+          padding-bottom: 0;
           position: absolute;
           right: 45px;
           top: 8%; } }

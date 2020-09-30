@@ -79,8 +79,10 @@
     &__name {
       // top: 8%;
       opacity: 0;
+      padding-bottom: 40px;
 
       @media(min-width: $screen-sm) {
+        padding-bottom: 0;
         position: absolute;
         right: 45px;
         top: 8%;
