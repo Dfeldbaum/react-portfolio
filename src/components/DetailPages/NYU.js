@@ -26,8 +26,6 @@ class NYU extends Component {
   }
 
   render() {
-    console.log(this.props);
-
     return (
       <div className="project-detail-section">
         <div className="item text-container">
