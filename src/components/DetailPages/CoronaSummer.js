@@ -32,7 +32,7 @@ class CoronaSummer extends Component {
       <div className="project-detail-section">
         <div className="item text-container">
           <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">CoronaUSA.com</h1>
-          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: HTML5, CSS3, React.js, Meteor/Node.js</h1>
+          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Built With: Meteor, React.js, SASS/CSS3</h1>
           <p ref={p => this.projectCopy = p} className="text-container__copy">From home page rebuilds to the 17-week Corona Summer sweepstakes promotion, I had the pleasure of building many interations of CoronaUSA.com. Built primarily in React and ES6 on Meteor, Corona USA is a constantly evolving web application that features a continually changing front end experiences. I was the full stack lead for Corona Summer 2018, front end lead for Corona Holiday 2018, and have built home page experiences for John Gruden and V Foundation promotions.</p>
           <a ref={a => this.btn = a} href="https://www.coronausa.com/" target="_blank" className="button">Visit Corona USA</a>
           

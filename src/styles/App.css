@@ -32,7 +32,7 @@ body, html {
   padding: 55px 45px 55px 45px; }
   @media (max-width: 766px) {
     .header {
-      padding: 17px; } }
+      padding: 17px 12%; } }
   .header .nav-wrapper {
     display: flex;
     flex-direction: column;
@@ -107,9 +107,6 @@ body, html {
         text-transform: uppercase;
         cursor: pointer;
         padding-left: 1px; }
-        @media (max-width: 361px) {
-          .header .nav-wrapper__name h3 {
-            font-size: 23px; } }
         @media (max-width: 600px) {
           .header .nav-wrapper__name h3 {
             transform: translateX(150%); } }
@@ -271,9 +268,13 @@ body, html {
   display: flex;
   flex-direction: column;
   margin: 181px auto 0;
-  padding: 45px; }
+  padding: 45px 12%; }
+  @media screen and (min-width: 366px) and (max-width: 376px) {
+    .project-detail-section {
+      padding: 45px 13.5%; } }
   @media screen and (min-width: 767px) {
     .project-detail-section {
+      padding: 45px;
       margin: 110px auto 0;
       flex-direction: row; } }
   .project-detail-section .text-container {
@@ -292,20 +293,37 @@ body, html {
     .project-detail-section .text-container__title {
       font-size: 28px;
       font-weight: 100;
-      transform: translateX(-100%); }
+      transform: translateX(-140%); }
+      @media screen and (min-width: 767px) {
+        .project-detail-section .text-container__title {
+          transform: translateX(-120%); } }
+      @media screen and (min-width: 992px) {
+        .project-detail-section .text-container__title {
+          transform: translateX(-100%); } }
     .project-detail-section .text-container__subtitle {
       font-size: 16px;
-      font-weight: 100;
-      transform: translateX(-100%); }
+      transform: translateX(-140%); }
+      @media screen and (min-width: 767px) {
+        .project-detail-section .text-container__subtitle {
+          padding-right: 20px;
+          transform: translateX(-120%); } }
+      @media screen and (min-width: 992px) {
+        .project-detail-section .text-container__subtitle {
+          transform: translateX(-100%); } }
       .project-detail-section .text-container__subtitle span {
         font-weight: 100; }
     .project-detail-section .text-container__copy {
       font-size: 16px;
       font-weight: 400;
-      transform: translateX(-100%); }
+      transform: translateX(-140%); }
       @media screen and (min-width: 767px) {
         .project-detail-section .text-container__copy {
-          padding-right: 50px; } }
+          padding-right: 50px;
+          transform: translateX(-120%); } }
+      @media screen and (min-width: 992px) {
+        .project-detail-section .text-container__copy {
+          padding-right: 50px;
+          transform: translateX(-100%); } }
   .project-detail-section .img-container {
     width: 100%; }
     @media screen and (min-width: 767px) {

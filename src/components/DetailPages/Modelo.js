@@ -30,7 +30,7 @@ class Modelo extends Component {
       <div className="project-detail-section">
         <div className="item text-container">
           <h1 ref={h1 => this.projectTitle = h1} className="text-container__title">ModeloFootball.com</h1>
-          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">HTML5, CSS3, Bootstrap, Meteor/Node.js</h1>
+          <h1 ref={h1 => this.projectSubTitle = h1} className="text-container__subtitle">Meteor, HTML5, Bootstrap/CSS3</h1>
           <p ref={p => this.projectCopy = p} className="text-container__copy">Built in under 2 weeks, the ModeloFootball.com 2017 rebuild features a sweepstakes mechanism where users can submit gameday pictures in order to win an all-expense paid weekend trip to meet former NFL star, Tony Gonzalez. Modelo Football 2018 will be live in early August.</p>
         </div>
 

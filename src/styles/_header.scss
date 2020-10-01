@@ -1,6 +1,6 @@
 .header {
   @media(max-width: 766px) {
-    padding: 17px;
+    padding: 17px 12%;
   }  
   // background-color: lightblue;
   background-color: white;
@@ -102,10 +102,6 @@
       }
 
       h3 {
-        @media(max-width: 361px) {
-          font-size:23px;
-        }
-        
         @media(max-width: 600px) {
           transform: translateX(150%);
         }
