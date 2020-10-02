@@ -57,15 +57,12 @@
     width: 100%;
     @media screen and (min-width: $screen-sm) {
       width: 35%;
+      text-align: center;
     }
 
     img {
       max-width: 100%;
       height: auto;
     }
-
   }
-
-
-
 }
