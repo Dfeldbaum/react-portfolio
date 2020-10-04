@@ -177,6 +177,9 @@ body, html {
     @media screen and (min-width: 767px) {
       .projects-section .item {
         width: calc(100% / 4); } }
+    @media screen and (min-width: 992px) {
+      .projects-section .item {
+        width: calc(100% / 5); } }
     .projects-section .item img {
       display: block;
       max-width: 100%;
